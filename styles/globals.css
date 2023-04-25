@@ -33,7 +33,7 @@
 }
 
 body {
-    background-color: beige;
+    @apply bg-gray-100;
     margin: 0;
     padding: 0;
   
