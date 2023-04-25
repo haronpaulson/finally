@@ -14,8 +14,6 @@ function Details () {
     var minutes = today.getMinutes();
     var seconds = today.getSeconds();
     var currenttime = `${hours}:${minutes}:${seconds}`;
-    const loc = [{name:"melbourne", key:"1"}, {name:"perth", key:"2"} ];
-    console.log(loc);
     const[locations, setLocations] = useState(["Melbourne", "Perth","Adelaide", "Regional Victoria", "Queensland"]);
     console.log(typeof(locations));
     var[workhours, setWork] = useState("");
